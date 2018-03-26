@@ -66,12 +66,12 @@ public class JxlExpExcel {
 
 			Label label = null;
 			sheet.mergeCells(0, 0, 4, 0);
-			sheet.addCell(new Label(0, 0, "2018年2月份长期出差人员考勤统计表", titleFormat));
+			sheet.addCell(new Label(0, 0, "xx统计表", titleFormat));
 			sheet.mergeCells(1, 1, 2, 1);
-			sheet.addCell(new Label(1, 1, "部门：监控事业部"));
+			sheet.addCell(new Label(1, 1, "部门：xx部"));
 
 			sheet.mergeCells(3, 1, 4, 1);
-			sheet.addCell(new Label(3, 1, "填报时间：2018年3月6日"));
+			sheet.addCell(new Label(3, 1, "填报时间：xxxx年xx月xx日"));
 
 			// 表格第一行设置列名
 			for (int i = 0; i < title.length; i++) {
